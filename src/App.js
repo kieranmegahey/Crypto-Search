@@ -28,11 +28,7 @@ function App() {
   return (
     <div className="App">
       <div className="cryptoHeader">
-        <input
-          onChange={handleOnChange}
-          type="text"
-          placeholder="search for a coin..."
-        />
+        <input onChange={handleOnChange} type="text" placeholder="Search..." />
       </div>
 
       <div className="cryptoDisplay">
